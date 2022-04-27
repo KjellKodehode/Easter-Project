@@ -4,12 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Splitter</title>
 </head>
 <body>
-
-    
+    <main>
+        <div class="splitter">
+            <h3 id="splitter">SPLI<br>TTER</h3>
+            <div class="splitter_body">
+                <div class="splitter_window">
+                    <div class="splitter_window_left">
+                        <div class="splitter_tip">
+                            <div class="splitter_input splitter_bill">
+                                <p>Bill</p>
+                                <div class="input-icon">
+                                    <input id="input-amount" type="text">
+                                    <i>$</i>
+                                </div>
+                            </div>
+                            <p>Select Tip %</p>
+                            <div class="splitter_tip_grid">
+                                <button id="btn-five">5%</button>
+                                <button id="btn-ten">10%</button>
+                                <button id="btn-fifteen">15%</button>
+                                <button id="btn-twentyfive">25%</button>
+                                <button id="btn-fifty">50%</button>
+                                <button id="btn-custom">Custom</button>
+                            </div>
+                        </div>
+                        <div class="splitter_input splitter_number">
+                            <p>Number of People</p>
+                            <div class="input-icon">
+                                <input id="input-people" type="text">
+                                <i>🧍</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="splitter_window_right">
+                        <div class="splitter_result">
+                            <div class="tip-each">
+                                <p class="tip-head">Tip Amount<br><span class="tip-sub">/ person</span></p>
+                                <!-- <p class="tip-sub">/ person</p> -->
+                                <h1 class="tip-amount">$4.27</h1>
+                            </div>
+                            <div class="tip-total">
+                                <p class="tip-head">Total<br><span class="tip-sub">/ person</span></p>
+                                <!-- <p class="tip-sub" id="tip-total">/ person</p> -->
+                                <h1 class="tip-amount">$32.79</h1>
+                            </div>
+                            <button id="btn-reset">RESET</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> 
     <script src="script.js"></script>
 </body>
 </html>
