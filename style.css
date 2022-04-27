@@ -12,20 +12,14 @@ body {
     padding-top: 25px;
 }
 
+/* COLORS */
 :root{
-    /* BUTTONS */
     --Strong-cyan: hsl(172, 67%, 45%);
-    /* BUTTONS */
-    /* top text SPLITTER */
     --Very-dark-cyan: hsl(183, 100%, 15%);
-    /* text color light gray */
     --Dark-grayish-cyan: hsl(186, 14%, 43%);
-    /* input dollar sign */
     --Grayish-cyan: hsl(184, 14%, 56%);
-    /* background top */
     --Light-grayish-cyan: hsl(185, 41%, 84%);
     --Very-light-grayish-cyan: hsl(189, 41%, 97%);
-    /* background white */
     --White: hsl(0, 0%, 100%);
 }
 
@@ -216,7 +210,6 @@ i{
 
 @media (min-width: 1440px) {
     body {
-      max-height: 100%;
       padding: 0;
       width: 1080px;
       
@@ -224,12 +217,13 @@ i{
     .splitter{
         display: grid;
         justify-content:center;
-        padding: 10vw 20vw;
-        padding-bottom: 20vw;
-        max-height: 100vw;
+        padding: 5vw 0 15vw 0;
         width: 100vw;
         text-align: center;
         
+    }
+    #splitter{
+        margin-bottom: 25px;
     }
     .splitter_body{
         width: 700px;
@@ -245,6 +239,5 @@ i{
     }
     .splitter_result{
         height: 95%;
-        /* margin-bottom: 5%; */
     }
   }
