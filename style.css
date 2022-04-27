@@ -211,8 +211,7 @@ i{
 @media (min-width: 1440px) {
     body {
       padding: 0;
-      width: 1440px;
-      
+      width: 1080px; 
     }
     .splitter{
         display: grid;
