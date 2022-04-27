@@ -220,12 +220,12 @@ i{
         padding: 5vw 0 15vw 0;
         width: 100vw;
         text-align: center;
-        
     }
     #splitter{
         margin-bottom: 25px;
     }
     .splitter_body{
+        border-radius: 25px;
         width: 700px;
     }
     .splitter_window{
