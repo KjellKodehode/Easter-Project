@@ -223,6 +223,12 @@ i{
     #splitter{
         margin-bottom: 25px;
     }
+    .splitter_window_right{
+        max-height: 330px;
+    }
+    #btn-reset{
+        margin-top: 105px;
+    }
     .splitter_body{
         border-radius: 25px;
         width: 700px;
